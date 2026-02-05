@@ -3,11 +3,11 @@ import { Metadata } from "next";
 
 // Home sections
 import Hero from "./components/home/hero";
-import About from "./components/home/about";
-import DiscoverProperties from "./components/home/property-option"; // mentor section
-import Listing from "./components/home/property-list";
-import Testimonials from "./components/home/testimonial";
-import Info from "./components/home/info";
+import GetInvolved from "./components/home/get-involved";
+import Mentorship from "./components/home/mentorship"; // mentor section
+import Collaboration from "./components/home/collaboration";
+import Contact from "./components/home/contact";
+import Impact from "./components/home/our-impact";
 
 
 // Global components
@@ -81,17 +81,17 @@ export default function Home() {
 
       {/* Core sections */}
       <Hero />
-      <About />
+      <GetInvolved />
 
       {/* Mentor / Opportunity / Engagement section */}
-      <DiscoverProperties />
+      <Mentorship />
 
-      {/* Impact, listings, or programs */}
-      <Listing />
-      <Info />
+      {/* Impact, Collaborations, or programs */}
+      <Collaboration />
+      <Impact />
 
       {/* Social proof */}
-      <Testimonials />
+      <Contact />
     </main>
   );
 }
