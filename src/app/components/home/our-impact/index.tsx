@@ -47,15 +47,15 @@ export default function OurImpact() {
         {/* ================= COUNTERS ================= */}
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <Counter
-            value={30}
+            value={5000}
             suffix="+"
-            label="Learners Trained"
+            label="Lives Impacted"
             accent="#5f3b86"
           />
 
           <Counter
-            value={20}
-            label="Devices Distributed"
+            value={15}
+            label="Active Partners"
             accent="#61abbb"
           />
 
@@ -67,8 +67,8 @@ export default function OurImpact() {
           />
 
           <Counter
-            value={5}
-            label="Active Partners"
+            value={3}
+            label="Area of Focus"
             accent="#61abbb"
           />
         </div>
