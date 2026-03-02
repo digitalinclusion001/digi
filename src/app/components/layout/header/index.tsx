@@ -43,7 +43,7 @@ export default function Header() {
       {/* ================= HEADER ================= */}
       <header
         className={`
-          fixed top-0 left-0 w-full z-50
+          fixed top-[40px] left-0 w-full z-50
           backdrop-blur-xl
           bg-white/80
           transition-colors duration-300

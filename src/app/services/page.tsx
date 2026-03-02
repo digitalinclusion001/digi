@@ -248,7 +248,7 @@ function Hackathons() {
       {/* LEFT */}
       <div className="lg:col-span-6">
         <h2 className="text-3xl md:text-4xl font-semibold text-white mb-8">
-          DII Hackathons &amp; BeatCode Club
+          DII Hackathons &amp; Incubators
         </h2>
 
         <p className="text-white/80 leading-relaxed max-w-xl mb-10">

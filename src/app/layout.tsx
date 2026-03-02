@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
+import AnnouncementBar from "./components/AnnouncementBar";
 
 
 import { ThemeProvider } from "next-themes";
@@ -43,6 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={dmsans.className}>
+        <AnnouncementBar />
         <AppContextProvider>
           <ThemeProvider
             attribute="class"

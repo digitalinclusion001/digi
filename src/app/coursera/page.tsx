@@ -105,12 +105,59 @@ Delivered online with flexible scheduling, the programme scales through trusted 
         text="Clear learning outcomes, onboarding, orientation, and learner monitoring."
         hero
       />
-      <Feature
-        icon={ShieldCheck}
-        title="Quality & Accountability"
-        text="Programme oversight ensures learning translates into real skills and confidence."
-        hero
-      />
+      <div className="space-y-6">
+  <Feature
+    icon={ShieldCheck}
+    title="Quality & Accountability"
+    text="Programme oversight ensures learning translates into real skills and confidence."
+    hero
+  />
+
+  {/* Action Buttons */}
+  <div className="flex flex-col sm:flex-row gap-4 pt-2">
+    
+    {/* Primary */}
+    <Link
+      href="https://share-eu1.hsforms.com/2gbtj-kz0TliOF_H089j6GQ2ftj2b"
+      className="
+        inline-flex items-center justify-center
+        px-8 py-3
+        rounded-2xl
+        bg-white
+        text-[#5f3b86]
+        text-xs
+        tracking-[0.35em]
+        uppercase
+        font-medium
+        hover:bg-white/90
+        transition
+      "
+    >
+      Onboard as a Partner
+    </Link>
+
+    {/* Secondary */}
+    <Link
+      href="https://2ftj2b.share-eu1.hsforms.com/2VJ-T_zCzR626sgy5lxhoDQ"
+      className="
+        inline-flex items-center justify-center
+        px-8 py-3
+        rounded-2xl
+        border border-white/40
+        text-white
+        text-xs
+        tracking-[0.35em]
+        uppercase
+        font-medium
+        hover:bg-white/10
+        transition
+      "
+    >
+      Onboard as a Beneficiary
+    </Link>
+
+  </div>
+</div>
     </div>
 
   </div>
@@ -147,6 +194,58 @@ Delivered online with flexible scheduling, the programme scales through trusted 
         variant="lilac"
       />
     </div>
+    {/* Call to Action */}
+<div className="mt-20 flex flex-col items-center gap-6 text-center">
+
+  <p className="max-w-xl text-black/60 leading-relaxed">
+    If you are eligible and ready to begin your learning journey, 
+    you may proceed with onboarding. Limited licences are available.
+  </p>
+
+  <div className="flex flex-col sm:flex-row gap-4">
+
+    {/* Primary */}
+    <Link
+      href="https://2ftj2b.share-eu1.hsforms.com/2VJ-T_zCzR626sgy5lxhoDQ"
+      className="
+        inline-flex items-center justify-center
+        px-10 py-4
+        rounded-2xl
+        bg-[#5f3b86]
+        text-white
+        text-xs
+        tracking-[0.35em]
+        uppercase
+        font-medium
+        hover:bg-[#4a2a73]
+        transition
+      "
+    >
+      Onboard as a Beneficiary
+    </Link>
+
+    {/* Secondary */}
+    <Link
+      href="https://forms.gle/T1y4VQUAo3yc34ja8"
+      className="
+        inline-flex items-center justify-center
+        px-10 py-4
+        rounded-2xl
+        border border-[#5f3b86]/30
+        text-[#5f3b86]
+        text-xs
+        tracking-[0.35em]
+        uppercase
+        font-medium
+        hover:bg-[#5f3b86]/5
+        transition
+      "
+    >
+      Join Waiting List
+    </Link>
+
+  </div>
+</div>
   </div>
 </section>
 
@@ -266,7 +365,33 @@ Delivered online with flexible scheduling, the programme scales through trusted 
         partners who provide local context, accountability, and learner support,
         while DII manages platform access, coordination, and impact reporting.
       </p>
+      <div className="mt-10 flex flex-col sm:flex-row gap-4">
+
+  {/* Primary CTA */}
+  <Link
+    href="https://share-eu1.hsforms.com/2gbtj-kz0TliOF_H089j6GQ2ftj2b"
+    className="
+      inline-flex items-center justify-center
+      px-10 py-4
+      rounded-2xl
+      bg-white
+      text-[#5f3b86]
+      text-xs
+      tracking-[0.35em]
+      uppercase
+      font-medium
+      hover:bg-white/90
+      transition
+    "
+  >
+    Onboard as a Partner
+  </Link>
+
+  
+
+</div>
     </div>
+    
 
     <div className="grid gap-16 lg:grid-cols-2">
 
