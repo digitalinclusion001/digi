@@ -102,6 +102,12 @@ export default function Footer() {
             >
              Donate
             </Link>
+            <Link
+              href="/job-opening"
+              className="inline-block text-[11px] tracking-[0.3em] uppercase text-white/80 border-b border-white/30 pb-1 hover:text-white hover:border-white transition"
+            >
+             Career
+            </Link>
           </div>
         </div>
 
