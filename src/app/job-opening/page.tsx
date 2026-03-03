@@ -155,7 +155,7 @@ export default function CareersPage() {
             </p>
 
             <Link
-              href="malito:info@digitalinclusioninitiative.org"
+            href="mailto:info@digitalinclusioninitiative.org"
               target="_blank"
               className="
                 inline-flex items-center gap-3
