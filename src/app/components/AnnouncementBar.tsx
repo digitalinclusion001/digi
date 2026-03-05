@@ -5,20 +5,11 @@ import { ArrowRight, Megaphone } from "lucide-react";
 
 const announcements = [
   {
-    id: 1,
-    text: "Applications for the 2026 Digital Skills Cohort are now open",
-    href: "/#",
-  },
-  {
-    id: 2,
-    text: "Women in Technology Bootcamp begins registration this month",
-    href: "/#",
-  },
-  {
-    id: 3,
-    text: "We are welcoming new institutional and corporate partners",
-    href: "/#",
-  },
+  id: 1,
+  text: "IWD Launch: Applications open for the DII Women Acceleration Programme (₦500,000 founder grant)",
+  href: "/iwd",
+},
+  
 ];
 
 export default function AnnouncementBar() {
