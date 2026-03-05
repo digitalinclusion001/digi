@@ -12,6 +12,7 @@ import {
   BarChart3,
   Calendar,
   ClipboardList,
+  XCircle,
   Lightbulb,
   TrendingUp,
 } from "lucide-react";
