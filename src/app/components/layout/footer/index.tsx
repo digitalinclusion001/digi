@@ -66,6 +66,15 @@ export default function Footer() {
                 </Link>
                 
               </li>
+              <li>
+                <Link
+                  href="/iwd"
+                  className="text-white/70 hover:text-white transition"
+                >
+                  International Women's Day
+                </Link>
+                
+              </li>
               <li><Link
                   href="/job-opening"
                   className="text-white/70 hover:text-white transition"
