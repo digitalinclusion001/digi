@@ -220,52 +220,155 @@ export default function WomenAccelerationPage() {
 
   </div>
 </section>
-      {/* WHO THIS IS FOR */}
-      <section className="bg-[#f9fafb] py-24 border-y border-black/5">
-        <div className="container mx-auto px-6 lg:max-w-screen-xl max-w-3xl">
+      {/* ================= WHO THIS IS FOR ================= */}
+<section className="py-28 bg-[#f9fafb] border-y border-black/5">
+  <div className="container mx-auto px-6 lg:max-w-screen-xl">
 
-          <h2 className="text-3xl font-semibold mb-8">
-            Who This Is For
-          </h2>
+    {/* Header */}
+    <div className="max-w-3xl mb-16">
+      <h2 className="text-3xl md:text-4xl font-semibold mb-6">
+        Who This Is For
+      </h2>
+      <p className="text-black/70">
+        The DII Women Acceleration Programme is designed for ambitious founders
+        building scalable digital businesses.
+      </p>
+    </div>
 
-          <ul className="space-y-3 text-black/70">
-            <li>✔ Are aged 18–30</li>
-            <li>✔ Are based in Nigeria</li>
-            <li>✔ Are building digital-first businesses</li>
-            <li>✔ Have scalable ambitions</li>
-            <li>✔ Are ready to commit to 8 weeks of focused growth</li>
-          </ul>
+    <div className="grid lg:grid-cols-2 gap-10">
 
-          <p className="mt-8 text-black/70">
-            We are looking for founders building:
-          </p>
+      {/* WHO IT IS FOR */}
+      <div
+        className="
+        relative
+        rounded-2xl
+        p-10
+        border
+        border-[#5f3b86]/20
+        bg-gradient-to-br
+        from-[#5f3b86]/10
+        via-[#61abbb]/10
+        to-[#5f3b86]/10
+        backdrop-blur-md
+      "
+      >
 
-          <ul className="mt-4 space-y-2 text-black/70">
-            <li>• SaaS products</li>
-            <li>• Tech-enabled services</li>
-            <li>• AI-powered solutions</li>
-            <li>• E-commerce brands with scalable models</li>
-            <li>• Digital platforms</li>
-            <li>• EdTech, FinTech, HealthTech innovations</li>
-          </ul>
+        <h3 className="text-lg font-semibold mb-6 text-[#5f3b86]">
+          This programme is designed for women who:
+        </h3>
 
-          <p className="mt-8 text-black/70">
-            This is not suitable for:
-          </p>
+        <ul className="space-y-4 text-black/80">
 
-          <ul className="mt-4 space-y-2 text-black/70">
-            <li>❌ Offline-only businesses</li>
-            <li>❌ Lifestyle or hobby ventures</li>
-            <li>❌ Informal small-scale trading</li>
-          </ul>
+          <li className="flex items-start gap-3">
+            <CheckCircle2 className="text-[#5f3b86] mt-1" size={18}/>
+            Are aged 18–30
+          </li>
 
-          <p className="mt-6 text-black/80 font-medium">
-            We are backing growth-oriented founders.
-          </p>
+          <li className="flex items-start gap-3">
+            <CheckCircle2 className="text-[#5f3b86] mt-1" size={18}/>
+            Are based in Nigeria
+          </li>
+
+          <li className="flex items-start gap-3">
+            <CheckCircle2 className="text-[#5f3b86] mt-1" size={18}/>
+            Are building digital-first businesses
+          </li>
+
+          <li className="flex items-start gap-3">
+            <CheckCircle2 className="text-[#5f3b86] mt-1" size={18}/>
+            Have scalable ambitions
+          </li>
+
+          <li className="flex items-start gap-3">
+            <CheckCircle2 className="text-[#5f3b86] mt-1" size={18}/>
+            Are ready to commit to 8 weeks of focused growth
+          </li>
+
+        </ul>
+
+        <p className="mt-10 text-black/70">
+          We are looking for founders building:
+        </p>
+
+        <div className="grid grid-cols-2 gap-3 mt-4 text-sm">
+
+          <div className="bg-white/60 border border-black/5 rounded-lg px-4 py-2">
+            SaaS products
+          </div>
+
+          <div className="bg-white/60 border border-black/5 rounded-lg px-4 py-2">
+            Tech-enabled services
+          </div>
+
+          <div className="bg-white/60 border border-black/5 rounded-lg px-4 py-2">
+            AI-powered solutions
+          </div>
+
+          <div className="bg-white/60 border border-black/5 rounded-lg px-4 py-2">
+            E-commerce brands
+          </div>
+
+          <div className="bg-white/60 border border-black/5 rounded-lg px-4 py-2">
+            Digital platforms
+          </div>
+
+          <div className="bg-white/60 border border-black/5 rounded-lg px-4 py-2">
+            EdTech / FinTech / HealthTech
+          </div>
 
         </div>
-      </section>
 
+        <p className="mt-8 font-medium text-black/80">
+          We are backing growth-oriented founders.
+        </p>
+
+      </div>
+
+      {/* WHO IT IS NOT FOR */}
+      <div
+        className="
+        relative
+        rounded-2xl
+        p-10
+        border
+        border-red-400/20
+        bg-gradient-to-br
+        from-red-500/10
+        via-red-400/10
+        to-red-500/10
+        backdrop-blur-md
+      "
+      >
+
+        <h3 className="text-lg font-semibold mb-6 text-red-500">
+          This programme is not suitable for:
+        </h3>
+
+        <ul className="space-y-4 text-black/80">
+
+          <li className="flex items-start gap-3">
+            <XCircle className="text-red-500 mt-1" size={18}/>
+            Offline-only businesses
+          </li>
+
+          <li className="flex items-start gap-3">
+            <XCircle className="text-red-500 mt-1" size={18}/>
+            Lifestyle or hobby ventures
+          </li>
+
+          <li className="flex items-start gap-3">
+            <XCircle className="text-red-500 mt-1" size={18}/>
+            Informal small-scale trading
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
       {/* WHAT YOU WILL GAIN */}
       <section className="py-24">
         <div className="container mx-auto px-6 lg:max-w-screen-xl">
