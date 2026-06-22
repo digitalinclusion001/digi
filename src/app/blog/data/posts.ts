@@ -11,6 +11,135 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+  slug: "childrens-day-outreach-2026",
+  title: "215 Children. Two Days. One Shared Commitment.",
+  excerpt:
+    "DII joined four partner organisations for a two-day Children's Day outreach across two Lagos schools — here is what happened.",
+  date: "25 May 2026",
+  author: "Digital Inclusion Initiative",
+  category: "Community",
+  coverImage: "/images/blog/children.jpeg",
+  content: `
+  <!-- INTRO -->
+  <div class="article-intro">
+    <p class="lede">
+      Children's Day is a date on the calendar. What happened across two Lagos
+      schools on May 22nd and 25th, 2026 was something more than that.
+    </p>
+
+    <p class="lede-strong">
+      The Digital Inclusion Initiative joined four partner organisations for a
+      two-day outreach designed to give children something concrete to take home:
+      knowledge, healthcare support, and tools for learning.
+    </p>
+  </div>
+
+  <!-- PARTNERS -->
+  <div class="article-body">
+    <p>
+      The partners were The Remi Odunsi Organization, Threefold Social Impact
+      Foundation, Mill Hill Ballers Club, and Eridan City. Together, the teams
+      moved across two schools over two days — not to observe, but to show up
+      in the fullest sense of the phrase.
+    </p>
+  </div>
+
+  <!-- WHERE -->
+  <div class="article-focus">
+    <h3>Where We Went</h3>
+    <p>
+      On May 22nd, the team visited Oluwalogbon Nursery and Primary School in
+      Ketu. Three days later, on May 25th, they visited Arowosegbe Nursery and
+      Primary School in Alapere Ketu. Both schools served as the setting for
+      what became a full day of engagement, support, and genuine community
+      connection.
+    </p>
+  </div>
+
+  <!-- WHAT HAPPENED -->
+  <div class="article-body">
+    <h3>What Happened on the Ground</h3>
+    <p>
+      The sessions were interactive from the start. Students participated in
+      conversations about the importance of education, resilience and confidence,
+      creativity and innovation, digital skills and inclusion, and personal growth
+      and future aspirations.
+    </p>
+
+    <p>
+      The rooms were not passive — students engaged, responded, and pushed back
+      in the way children do when something actually interests them.
+    </p>
+
+    <p>
+      At Arowosegbe, the outreach went further. A professional pharmacist
+      accompanied the team and conducted basic health examinations for students
+      on site. Where medications were needed, they were prescribed and provided.
+      For many of these children, that kind of direct healthcare access is not
+      a given.
+    </p>
+
+    <p>
+      Every student at both schools went home with a school bag, exercise books,
+      pens, and a water bottle. Small things, perhaps. But for families carrying
+      the weight of school costs, they matter.
+    </p>
+  </div>
+
+  <!-- WHO WAS REACHED -->
+  <div class="article-focus">
+    <h3>Who Was Reached</h3>
+    <p>
+      By the close of both days, the outreach had directly impacted 180 students
+      and 35 teachers across the two schools — 215 people in total.
+    </p>
+
+    <p>
+      School administrators and teachers expressed appreciation for the initiative,
+      noting that collaborative efforts like this one make a measurable difference
+      to learning experiences, student welfare, and community support systems.
+    </p>
+  </div>
+
+  <!-- WHAT THIS MEANS -->
+  <div class="article-body">
+    <h3>What This Means for DII</h3>
+    <p>
+      Digital inclusion is not only about devices and connectivity. It begins
+      with children who believe the future has something in it for them. Showing
+      up in a classroom, talking about digital skills, and leaving a child with
+      a bag packed for school the next morning — that is where inclusion starts.
+    </p>
+
+    <p>
+      This outreach is part of DII's ongoing commitment to reaching underserved
+      communities across Nigeria, not just online but in person, in classrooms,
+      and in partnership with organisations that share the same vision.
+    </p>
+
+    <blockquote>
+      "Children are the foundation of our nation's future. Through this
+      partnership, we are not only celebrating Children's Day but actively
+      investing in their growth by providing tools, knowledge, healthcare
+      support, and inspiration that will create lasting impact in their lives
+      and communities."
+    </blockquote>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="article-action">
+    <h3>About the Partnership</h3>
+    <p>
+      This initiative forms part of the ongoing collaborative efforts of The
+      Remi Odunsi Organization, Threefold Social Impact Foundation, Digital
+      Inclusion Initiative, Mill Hill Ballers Club, and Eridan City to advance
+      education, child welfare, healthcare support, youth development, and
+      digital inclusion across Nigeria.
+    </p>
+  </div>
+`,
+},
+  {
     slug: "what-is-digital-poverty",
     title: "What is Digital Poverty?",
     excerpt:
