@@ -10,6 +10,126 @@ export type BlogPost = {
 };
 
 export const posts: BlogPost[] = [
+{
+  slug: "run-tech-fest-5",
+  title: "The Biggest Thing We Took Away from RUN Tech Fest 5.0",
+  excerpt:
+    "We went to RUN Tech Fest 5.0 to talk about our programmes. What we left with was something we didn't expect.",
+  date: "8 May 2026",
+  author: "Digital Inclusion Initiative",
+  category: "Community",
+  coverImage: "/images/blog/run-tech-fest.jpg",
+  content: `
+  <!-- INTRO -->
+  <div class="article-intro">
+    <p class="lede">
+      On May 8th, we had the opportunity to attend RUN Tech Fest 5.0 at
+      Redeemer's University.
+    </p>
+
+    <p class="lede-strong">
+      What stayed with us wasn't the presentation. It was the conversations.
+    </p>
+  </div>
+
+  <!-- CONTEXT -->
+  <div class="article-body">
+    <p>
+      We went to talk about our free Coursera programmes and BeatCode Hackathon
+      2.0 — a few minutes on stage, then back to the booth to meet people
+      one-on-one.
+    </p>
+
+    <p>
+      Throughout the day, students kept stopping by to ask questions. Some wanted
+      to learn data analytics. Others were interested in cybersecurity, software
+      development, digital marketing, and project management. A few already knew
+      exactly what they wanted to learn.
+    </p>
+
+    <p>
+      The challenge wasn't a lack of interest.
+    </p>
+
+    <p>
+      Many simply didn't know where to begin.
+    </p>
+  </div>
+
+  <!-- WHAT WE HEARD -->
+  <div class="article-focus">
+    <p>
+      Others had looked into online courses before but were discouraged by the
+      cost. Some assumed opportunities like Coursera certificates were out of
+      reach. Others weren't sure which skill to learn first or how to turn a
+      skill into a career.
+    </p>
+
+    <blockquote>
+      Again and again, we met people who were eager to learn and willing to
+      put in the work. They weren't looking for shortcuts. They were looking
+      for a starting point.
+    </blockquote>
+
+    <p>
+      People often assume young Nigerians aren't interested in self-development.
+      Our experience at RUN Tech Fest told a different story.
+    </p>
+  </div>
+
+  <!-- THE REAL ISSUE -->
+  <div class="article-body">
+    <p>The appetite is there.</p>
+    <p>The curiosity is there.</p>
+    <p>The willingness to learn is there.</p>
+
+    <p>
+      What many people need is access. They need someone to show them that
+      opportunities exist. They need affordable pathways into the digital economy.
+      Sometimes they just need somebody to say, "You can start here."
+    </p>
+  </div>
+
+  <!-- WHY WE EXIST -->
+  <div class="article-focus">
+    <p>
+      Those conversations reminded us why the Digital Inclusion Initiative exists.
+    </p>
+
+    <p>
+      Our work has never been just about technology. It has always been about
+      people. It is about making sure that cost is not the reason someone misses
+      out on learning a valuable skill. It is about helping people take that
+      first step, whether through free learning opportunities, digital skills
+      programmes, or community events like BeatCode Hackathon.
+    </p>
+  </div>
+
+  <!-- CLOSING -->
+  <div class="article-action">
+    <p>
+      We're grateful to the RUNTECHSPACE Community for creating a space where
+      these conversations could happen. More importantly, we're grateful to every
+      student who stopped by our booth, asked questions, shared their goals, and
+      reminded us that there is an incredible amount of untapped potential waiting
+      for an opportunity.
+    </p>
+
+    <p>
+      If the conversations we had last week are anything to go by, the future is
+      full of people who are ready to learn.
+    </p>
+
+    <p class="closing">
+      The question is whether we can continue opening doors for them.
+    </p>
+
+    <p class="final">
+      At the Digital Inclusion Initiative, that's exactly what we intend to do.
+    </p>
+  </div>
+`,
+},
   {
   slug: "childrens-day-outreach-2026",
   title: "215 Children. Two Days. One Shared Commitment.",
