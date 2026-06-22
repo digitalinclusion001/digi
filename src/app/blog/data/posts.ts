@@ -18,7 +18,7 @@ export const posts: BlogPost[] = [
   date: "8 May 2026",
   author: "Digital Inclusion Initiative",
   category: "Community",
-  coverImage: "/images/blog/runtechspace.jpeg",
+  coverImage: "/images/blog/runtechspace.jpg",
   content: `
   <!-- INTRO -->
   <div class="article-intro">
